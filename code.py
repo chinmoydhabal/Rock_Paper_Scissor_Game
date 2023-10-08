@@ -10,8 +10,6 @@ def gamewin(Computer, You):
     elif Computer=='p':
         if You=='r':
             return False
-        elif You=='w':
-            return False
         elif You=='s':
             return True
     elif Computer=='s':
